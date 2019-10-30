@@ -13,6 +13,7 @@ nav {
 section {
   margin: 0 auto;
   width: 60%;
+  padding-top: 90px;
 }
 
 h1 {
@@ -29,17 +30,17 @@ h3 {
   font-size: 1.3em;
 }
 
-.element {
-  background-color: green;
+.element, .element2 {
   height: 100px;
   margin: 10px 0;
   width: 100%;
 }
 
+.element {
+  background-color: green;
+}
+
 /* last three divs */
 .element2 {
   background-color: blue;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
 }
